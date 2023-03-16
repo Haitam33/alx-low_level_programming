@@ -9,7 +9,7 @@ int main(void)
 {
 	char line[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	write(STDERR_FILENO, line, sizeof(msg) - 1);
+	write(STDERR_FILENO, line, sizeof(line) - 1);
 
 	return (1);
 }
