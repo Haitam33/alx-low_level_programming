@@ -3,7 +3,7 @@
  * main - a C program that prints a line
  * Use the function puts
  * You are not allowed to use printf
- * Your program should end with the value 0
+ * Return 0
  */
 int main(void)
 {
