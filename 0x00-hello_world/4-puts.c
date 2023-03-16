@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - a C program that prints exactly "Programming is like building a multilingual puzzle,
+ * main - a C program that prints a line
  * Use the function puts
  * You are not allowed to use printf
  * Your program should end with the value 0
