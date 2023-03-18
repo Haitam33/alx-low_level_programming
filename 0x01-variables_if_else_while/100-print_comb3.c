@@ -18,12 +18,13 @@ int main(void)
 			if (x == 8 && y == 9)
 			{
 				putchar('\n');
-				return (0);
+				goto end;
 			}
 			putchar(',');
 			putchar(' ');
 		}
 	}
+		end:
 		putchar('\n');
 		return (0);
 }
