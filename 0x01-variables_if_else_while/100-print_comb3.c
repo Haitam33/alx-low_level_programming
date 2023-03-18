@@ -23,7 +23,7 @@ int main(void)
 			putchar(' ');
 		}
 	}
-		end:
+end:
 		putchar('\n');
 		return (0);
 }
