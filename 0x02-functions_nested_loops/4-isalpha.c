@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
-  * _islower - checks for lowercase
-  * @c: the number to be checked
+  * _isalpha - checks for alphabets
+  * @c: the number to check
   *
-  * Return: 1 if the character is lower or 0 if not
+  * Return: 1 if alphabet or 0 if not
   */
 int _isalpha(int c)
 {
