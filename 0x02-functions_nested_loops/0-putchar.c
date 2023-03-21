@@ -1,10 +1,11 @@
+#include <stdio.h>
 #include "main.h"
 /**
   * main -  prints "_putchar"
   *
   * Return: Always 0 (secusess)
   */
-void _putchar(void)
+int main(void)
 {
 	char c[8] = "_putchar";
 	int x = 0;
@@ -15,4 +16,5 @@ void _putchar(void)
 		x++;
 	}
 	putchar ('\n');
+	return (0);
 }
