@@ -1,9 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 
+
 /**
- * print_times_table - prints the n times table, starting with 0
- * @n: number of the times table
+ * main - the sum of all the multiples of 3 or 5
+ *
+ * Return: Always 0.
  */
 
 int main()
