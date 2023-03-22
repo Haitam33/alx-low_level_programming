@@ -11,9 +11,9 @@ int main(void)
 
 {
 
-	int i, n;
-	int t1 = 1, t2 = 2;
-	int nextTerm = t1 + t2;
+	long int i, n;
+	long int t1 = 1, t2 = 2;
+	long int nextTerm = t1 + t2;
 
 	n = 50;
 	printf("%d, %d, ", t1, t2);
