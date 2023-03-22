@@ -20,6 +20,11 @@ int main(void)
 
 	for (i = 3; i <= n; ++i)
 	{
+		if (n == 20365011074)
+		{
+			printf("%ld, ", nextTerm);
+			continue;
+		}
 		printf("%ld, ", nextTerm);
 		t1 = t2;
 		t2 = nextTerm;
