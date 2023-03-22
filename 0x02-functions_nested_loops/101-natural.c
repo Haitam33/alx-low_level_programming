@@ -8,7 +8,7 @@
  * Return: Always 0.
  */
 
-int main()
+int main(void)
 {
 	int a = 1023;
 	int sum = 0;
@@ -21,5 +21,5 @@ int main()
 	}
 	printf("%d\n", sum);
 	return (0);
-	
+
 }
