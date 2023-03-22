@@ -20,7 +20,7 @@ int main(void)
 
 	for (i = 3; i <= n; ++i)
 	{
-		if (n == 98)
+		if (i == 98)
 		{
 			printf("%lu", nextTerm);
 			continue;
