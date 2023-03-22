@@ -6,7 +6,7 @@
  * @n: number of the times table
  */
 
-void main()
+int main()
 {
 	int a = 1023;
 	int sum = 0;
