@@ -13,18 +13,18 @@ int main(void)
 
 	long int i, n;
 	long int t1 = 1, t2 = 2;
-	long int nextTerm = t1 + t2;
+	long int t3 = 0;
 	long int sum = 0;
 
 	n = 34;
 
 	for (i = 3; i <= n; ++i)
 	{
-		if (nextTerm % 2 == 0)
-			sum = sum + nextTerm;
-		t1 = t2;
-		t2 = nextTerm;
-		nextTerm = t1 + t2;
+		if (t2  % 2 == 0)
+			sum = sum + t2;
+		t3 = t2;
+		t2 = t2 + t1;
+		t1 = t3;
 	}
 	printf("%ld\n", sum);
 	return (0);
