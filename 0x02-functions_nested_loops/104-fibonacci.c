@@ -20,7 +20,7 @@ int main(void)
 
 	for (i = 3; i <= n; ++i)
 	{
-		if (nextTerm == 16008811023750101250)
+		if (n == 98)
 		{
 			printf("%lu", nextTerm);
 			continue;
