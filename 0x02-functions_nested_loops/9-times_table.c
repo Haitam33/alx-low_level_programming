@@ -27,6 +27,7 @@ void times_table(void)
 			_putchar(t / 10 + '0');
 			_putchar(t % 10 + '0');
 			}
+			if (x == 9)
 			_putchar(',');
 		}
 		_putchar('\n');
