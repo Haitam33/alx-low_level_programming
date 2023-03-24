@@ -6,22 +6,20 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	long int x;
-	long int largest;
-	long int y;
+	long int x, y, largest;
 
-	x = 612852475143;
 	largest = -1;
+	x = 612852475143;
 
 	while (x % 2 == 0)
 	{
 		largest = 2;
-		x /= 2;
+		x = x / 2;
 	}
-
-	for (y = 3; y <= x * x; y = y + 2)
+	for (y = 3; y <= x / 2; y = y + 2)
 	{
 		while (x % y == 0)
 		{
@@ -31,7 +29,7 @@ int main(void)
 	}
 	if (x > 2)
 		largest = x;
-	printf("%ld\n", largest);
 
+	printf("%ld\n", largest);
 	return (0);
 }
