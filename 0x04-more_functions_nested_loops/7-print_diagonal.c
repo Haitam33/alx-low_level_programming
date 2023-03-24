@@ -6,7 +6,7 @@
 *@n: the number of times the character \ should be printed.
 */
 
-void print_line(int n)
+void print_diagonal(int n)
 {
 	int x;
 	int y;
