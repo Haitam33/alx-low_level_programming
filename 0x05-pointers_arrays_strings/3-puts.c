@@ -3,7 +3,7 @@
 /**
  * _puts - prints a string, followed by a new line, to stdout.
  *
- * @s: input.
+ * @str: input.
  *
  **/
 
@@ -13,7 +13,7 @@ void _puts(char *str)
 
 	while (str[i] != '\0')
 	{
-		putchar(str[i]);	
+		putchar(str[i]);
 		i++;
 	}
 		putchar('\n');
