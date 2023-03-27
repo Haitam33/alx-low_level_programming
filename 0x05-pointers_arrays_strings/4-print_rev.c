@@ -3,14 +3,14 @@
 /**
  * print_rev - prints a string, in reverse, followed by a new line.
  *
- * @str: input.
+ * @s: input.
  *
  **/
 
 void print_rev(char *s)
 {
 	int i = 0;
-	
+
 	while (s[i] != '\0')
 	{
 		i++;
@@ -21,5 +21,4 @@ void print_rev(char *s)
 		putchar(s[i]);
 		i--;
 	}
-		putchar('\n');
 }
