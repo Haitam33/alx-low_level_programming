@@ -5,6 +5,8 @@
  *
  * @s: input.
  *
+ * return: i.
+ *
  **/
 
 int _strlen(char *s)
