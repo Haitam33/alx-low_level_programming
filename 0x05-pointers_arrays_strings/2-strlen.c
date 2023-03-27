@@ -5,7 +5,7 @@
  *
  * @s: input.
  *
- * return: i.
+ * Return: i.
  *
  **/
 
