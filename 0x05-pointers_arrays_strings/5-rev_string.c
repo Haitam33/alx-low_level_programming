@@ -12,6 +12,7 @@ void rev_string(char *s)
 	int imax = 0;
 	char c = s[0];
 	int i;
+
 	while (s[imax] != '\0')
 	{
 		imax++;
