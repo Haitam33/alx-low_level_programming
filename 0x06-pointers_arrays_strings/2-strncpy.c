@@ -14,8 +14,8 @@
 
 char *_strncpy(char *dest, char *src, int n)
 	{
-	unsigned int    i;
-	int             size;
+	int i;
+	int size;
 
 	size = 0;
 	i = 0;
