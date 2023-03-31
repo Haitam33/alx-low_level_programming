@@ -10,14 +10,19 @@
 
 char *cap_string(char *str)
 {
-	int i;
+	int x;
+	int y;
+	char sep[] = " \t\n,;.!?\"(){}";
 
-	i = 0;
-	while (str[i])
+	x = 1;
+	if (str[0] >= 'a' && str[0] <= 'z')
+		str[0] -= ('a' - 'A');
+	while (str[x] != '\0')
 	{
-		if ((str[i] >= 'a') && (str[i] <= 'z'))
-			str[i] = ((str[i] - 'a') + 'A');
-		i++;
+		for (y = 0; sep[y] != '\0'; y++)
+			if (str[x - 1] == sep[y] && (str[x] >= 'a' && str[x] <= 'z'))
+				str[x] -= ('a' - 'A');
+		x++;
 	}
 	return (str);
 }
