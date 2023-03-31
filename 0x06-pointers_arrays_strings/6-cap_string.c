@@ -8,7 +8,7 @@
  * Return: @str.
  */
 
-char *cap_string(char *)
+char *cap_string(char *str)
 {
 	int i;
 
