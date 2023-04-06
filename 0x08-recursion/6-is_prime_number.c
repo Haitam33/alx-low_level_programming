@@ -3,7 +3,7 @@
 /**
  * checkpr - checks if number is prime
  * @a:number to compaire to
- * @b:input number 
+ * @b:input number
  * Return:result
  */
 int checkpr(int a, int b)
