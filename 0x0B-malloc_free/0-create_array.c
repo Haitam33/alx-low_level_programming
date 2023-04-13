@@ -2,6 +2,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * create_array - creates array of chars & initializes it with a specific char
+ * @size: size of array.
+ * @c: character to initialize array with
+ *
+ * Return: x or NULL if malloc fails or if size == 0
+ */
+
 char *create_array(unsigned int size, char c)
 {
 	char *x;
