@@ -5,7 +5,8 @@
 /**
  * _strdup - Returns a pointer to a newly-allocated space in memory.
  * @str: string to copy
- * Return: null if insufficient memory or str == null or a pointer to the duplicated string.
+ * Return: null if insufficient memory or str == null or
+ *	a pointer to the duplicated string.
  */
 
 char *_strdup(char *str)
@@ -19,7 +20,7 @@ char *_strdup(char *str)
 	for (x = 0; str[x]; x++)
 		x++;
 
-	c = malloc(x * sizeof(char));
+	c = malloc((x + 1) * sizeof(char));
 
 	if (c == NULL)
 	{
