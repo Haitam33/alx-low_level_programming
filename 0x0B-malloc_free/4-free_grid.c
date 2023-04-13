@@ -1,7 +1,6 @@
 #include <stdlib.h>
 
 /**
- *
  * free_grid - that frees a 2 dimensional grid
  *@grid: 2 dimensional grid
  *@height: grid height
