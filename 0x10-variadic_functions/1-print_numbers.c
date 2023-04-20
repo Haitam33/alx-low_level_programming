@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-* print_numbers - prints numbers, followed by a new line. 
+* print_numbers - prints numbers, followed by a new line.
 * @separator: - print between numbers
 * @n: - number of arguments
 * Return: void
