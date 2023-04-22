@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 		exit(2);
 	}
 
-	for (y = 0; y < b; y++)
+	for (y = 0; y < x; y++)
 	{
 		opcode = *(unsigned char *)address;
 		printf("%.2x", opcode);
